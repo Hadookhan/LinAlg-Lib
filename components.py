@@ -6,7 +6,7 @@ class Linalg:
 
     # dot product - used to compute angles and matrix multiplication
     @staticmethod
-    def matdot(a, b):
+    def matdot(a: np.array, b: np.array) -> np.array:
         # The column size of shape A should match row size of of shape B
         # This is standard with the dot product in matrices
         if a.shape[1] != b.shape[0]:
@@ -31,9 +31,14 @@ class Linalg:
         # 2. 3*5=15 + 4*6=24 => 39
         # 3. Store in 2x1 matrix => [[17],[39]]
 
+    # Computes the distance between two points
+    @staticmethod
+    def vector_from_points(O: np.array, p: np.array) -> np.array:
+        return p - O
+
     # cross product - for 3D vectors: to find new vector parallel to the original plane
     @staticmethod
-    def cross(a, b):
+    def cross(a: np.array, b: np.array) -> np.array:
         expected_vector = (3,)
         if a.shape != expected_vector or b.shape != expected_vector:
             raise ValueError("Invalid vector shapes")

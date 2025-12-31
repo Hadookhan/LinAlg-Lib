@@ -15,5 +15,6 @@ c = np.array([
     [3]
 ], dtype='int32')
 
-vec_a = np.array([1,0,2])
-vec_b = np.array([2,-1,3])
+Origin = np.array([0,2,0])
+p1 = np.array([1,0,0])
+p2 = np.array([0, 0, 3])
