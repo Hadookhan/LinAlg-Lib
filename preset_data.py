@@ -14,3 +14,6 @@ c = np.array([
     [1],
     [3]
 ], dtype='int32')
+
+vec_a = np.array([1,0,2])
+vec_b = np.array([2,-1,3])
