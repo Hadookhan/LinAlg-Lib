@@ -16,5 +16,8 @@ def main():
     p1p2 = Linalg.vector_from_points(Op1,Op2)
     print(f'p1->p2 : {p1p2}')
 
+    detA = Linalg.determinant(A)
+    print(detA)
+
 if __name__ == '__main__':
     main()

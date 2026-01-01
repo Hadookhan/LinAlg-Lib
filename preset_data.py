@@ -18,3 +18,9 @@ c = np.array([
 Origin = np.array([0,2,0])
 p1 = np.array([1,0,0])
 p2 = np.array([0, 0, 3])
+
+A = np.array([
+    [1,0,3],
+    [2,1,0],
+    [1,1,2]
+])
