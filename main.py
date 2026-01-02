@@ -19,5 +19,7 @@ def main():
     detA = Linalg.determinant(A)
     print(detA)
 
+    print(Linalg.cofactor(A))
+
 if __name__ == '__main__':
     main()
