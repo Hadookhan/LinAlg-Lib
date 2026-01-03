@@ -157,7 +157,7 @@ class Linalg:
 
         return np.array([i,j,k])
     
-        
+    # Day 5: Revisiting Single Variable Calculus (proofs)
             
 
 
